@@ -35,3 +35,9 @@ container2.appendChild(nestedHeading);
 container2.appendChild(nestedP);
 
 container.appendChild(container2);
+
+const btn = document.getElementById("button");
+
+btn.addEventListener("click", function (e) {
+  e.target.style.background = "blue";
+});
